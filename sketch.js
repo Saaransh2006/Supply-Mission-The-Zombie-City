@@ -88,7 +88,7 @@ function setup() {
 	World.add(world, packageBody);
 
 	//Creating a rectangle body named ground.
-	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
+	ground = Bodies.rectangle(width/2, 650, width, 20 , {isStatic:true} );
 	//Adding it to Matter.World.
 	World.add(world, ground);
 
